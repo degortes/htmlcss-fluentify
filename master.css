@@ -281,6 +281,16 @@ footer {
 }
 
 
+a.mail{
+    padding: 0;
+    color: white;
+    text-transform: lowercase;
+}
+
+
+footer {
+    padding: 50px 0;
+}
 footer img {
     display: block;
     padding-bottom: 30px;
@@ -295,6 +305,7 @@ footer img {
 .leftfoot {
     float: left;
     width: 15%;
+    margin-right: 10px;
 }
 
 .leftfoot p {
@@ -302,9 +313,17 @@ footer img {
 }
 
 
+.leftfoot i {
+    color:#65dd81;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
 .rightfoot>ul>li {
     display: inline-grid;
-    padding: 30px 50px;
+    padding: 30px 10px;
     margin: 10px 0;
 }
 
@@ -313,4 +332,29 @@ footer img {
 
 .rightfoot>ul>li>ul>li {
     margin: 15px 0;
+}
+
+
+ul span {
+    margin: 10px 0;
+}
+
+.footlist>ul>li {
+        display:  inline-grid;
+        padding-right: 50px;
+        margin-bottom: 50px;
+
+}
+
+
+.downfoot>ul>li {
+    display: inline-block;
+    padding: 50px 20px 0 0;
+    margin-bottom: 50px;
+
+}
+
+.downfoot {
+    border-top: 1px solid white;
+
 }
