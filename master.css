@@ -32,14 +32,14 @@ header img {
     padding: 18px 0 18px 5px;
 }
 
-li {
+header li {
     list-style-type: none;
     float: left;
     padding: 0px 20px;
 }
 
 
-ul {
+header ul {
     display: inline-block;
     height: 80px;
     line-height: 80px;
@@ -131,6 +131,11 @@ ul {
 }
 
 
+
+li {
+    list-style-type: none;
+    padding: 10px 0;
+}
 /* fine header  */
 
 h4 {
@@ -151,16 +156,14 @@ h1 {
 
 .jumbo {
     background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
-    background-size: cover;
-    height: 560px;
     padding-top: 80px;
     color: white;
+    background-size: cover;
 }
 
 
 .jumbocolor {
     background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
-    height: 480px;
 
 }
 
@@ -270,4 +273,44 @@ padding: 100px 0;
 
 .plan h2 {
     font-size: 50px;
+}
+
+footer {
+    background-color: #001a4f;
+    color: white;
+}
+
+
+footer img {
+    display: block;
+    padding-bottom: 30px;
+
+}
+
+.rightfoot {
+    float: left;
+    display: inline-grid;
+}
+
+.leftfoot {
+    float: left;
+    width: 15%;
+}
+
+.leftfoot p {
+    padding-top: 5px;
+}
+
+
+.rightfoot>ul>li {
+    display: inline-grid;
+    padding: 30px 50px;
+    margin: 10px 0;
+}
+
+
+}
+
+.rightfoot>ul>li>ul>li {
+    margin: 15px 0;
 }
