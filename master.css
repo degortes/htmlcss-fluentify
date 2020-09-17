@@ -283,8 +283,8 @@ h1 {
     line-height: 30px;
 }
 
-.rightmotivation p:last-child {
-    border-bottom: 1px solid transparent;
+.rightmotivation p:last-of-type {
+    border-bottom: 1px solid white;
 }
 
 .motivation h2 {
