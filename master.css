@@ -32,7 +32,7 @@ header img {
 header li {
     list-style-type: none;
     float: left;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 header ul {
@@ -53,17 +53,32 @@ header ul {
 
 .menu {
     float: left;
-    width: 71%;
+    width: 69%;
     height: 80px;
+}
+
+.langcontain {
+    float: right;
 }
 
 .calltoaction {
-    float: right;
-    width: 29%;
+    float: left;
     text-align: right;
     height: 80px;
+    display: inline-block;
+    margin: 0 0 0 20px;
 }
 
+
+.headhide li {
+    display: block;
+    background-color: darkblue;
+    padding: 0;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
 
  a {
     text-decoration: none;
@@ -124,6 +139,13 @@ header ul {
     color: white;
 }
 
+.headhide {
+    display: none;
+}
+
+.headshow:hover .headhide {
+    display: grid;
+}
 li {
     list-style-type: none;
     padding: 10px 0;
