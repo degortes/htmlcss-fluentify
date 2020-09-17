@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 12.6px;
     font-family: 'Maven Pro', sans-serif;
 }
 
@@ -17,22 +17,24 @@
     background-color: white;
     position: fixed;
     top: 0;
-    left: 0px
+    left: 0px;
 }
 
 header {
     border-bottom: 1px solid lightgrey;
     background-color: white;
+    font-size: 12px;
 }
 
 header img {
-    padding: 18px 0 18px 5px;
+    padding: 18px 0 18px 15px;
 }
 
 header li {
     list-style-type: none;
     float: left;
-    padding: 0px 10px;
+    padding: 4px 17px 0 17px;
+
 }
 
 header ul {
@@ -53,7 +55,7 @@ header ul {
 
 .menu {
     float: left;
-    width: 69%;
+    width: 68%;
     height: 80px;
 }
 
@@ -66,7 +68,7 @@ header ul {
     text-align: right;
     height: 80px;
     display: inline-block;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 35px;
 }
 
 
@@ -84,15 +86,18 @@ header ul {
     text-decoration: none;
     padding: 0px 20px;
     display: inline-block;
-    height: 44px;
-    line-height: 42px;
+    height: 42px;
+    line-height: 40px;
     margin: 19px 0;
     color: black;
     border-radius: 5px;
     text-transform: uppercase;
 }
 
+.headshow a {
+    padding: 0px 10px;
 
+}
 
 .calltoaction span {
     margin: 0 10px;
@@ -120,6 +125,8 @@ header ul {
     background-color: white;
     color: #828fa9;
     border: 1px solid  #828fa9;
+    margin-right: 10px;
+    padding: 0 30px;
 }
 
 .bottong {
@@ -154,16 +161,21 @@ li {
 
 h4 {
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 h1 {
-    font-size: 45px;
-    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    padding: 18px 0;
     font-weight: normal;
 }
 
 .jumbo p {
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0;
+    color: white;
 }
 
 .jumbo {
@@ -187,23 +199,49 @@ h1 {
     width: 50%;
     padding: 100px 0;
 }
+.motivation .container {
+    position: relative;
+    z-index: -1;
+}
 
+.leftmotivation img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.rightmotivation p {
+    color: #727272;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
 
-h2 {
+.motivation h2 {
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 30px;
+    color: #727272;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 h2 span {
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     color: #7de397;
+    font-weight: 500;
 }
 
 
 h3 {
-    font-size: 25px;
     padding: 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
 }
 
 
@@ -214,12 +252,13 @@ h3 {
 }
 
 
-.services {;
+.services {
     padding: 100px 0;
 }
 .services  h2 {
     text-align: center;
     padding-bottom: 30px;
+    font-size: 50px;
 }
 
 .grid {
@@ -253,6 +292,11 @@ h3 {
     float: right;
 }
 
+
+.rightmobile img {
+    display: block;
+
+}
 .platform {
     padding: 50px 0;
 }
